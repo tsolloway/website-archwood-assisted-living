@@ -1,0 +1,48 @@
+ 
+- title: 24-hour Individualized Care
+  description: Experience personalized attention and assistance tailored to your unique needs for a comfortable stay
+  img: visits.jpg
+
+- title: Dining
+  description: Indulge in the joy of wholesome, home-cooked meals and delightful snacks, carefully crafted to nourish both your body and soul
+  img: honey.jpg
+
+- title: Housekeeping
+  description: Relax and enjoy a clean and inviting living environment with our dedicated housekeeping services, allowing you to focus on what matters most
+  img: cleaning1.jpg
+
+- title: Medication Assistance
+  description: Be at ease with our medication assistance, providing the support you need to manage your health effectively and safely
+  img: pills.jpg
+
+- title: Laundry
+  description: Say goodbye to laundry worries! Let us handle the chores, ensuring your clothing and linens are always fresh and cared for
+  img: laundry.jpg
+
+- title: Dressing & Grooming Assistance
+  description: Feel confident and well-groomed with our dedicated assistance in dressing and grooming, tailored to your individual preferences and needs
+  img: grooming.jpg
+
+- title: Activities & Engagement
+  description: Engage in a variety of recreational and wellness activities designed to promote physical, mental, and social well-being, fostering a vibrant and fulfilling lifestyle for residents
+  img: activities.jpg
+
+- title: Transportation Coordination
+  description: Experience convenience at your fingertips with our transportation coordination, ensuring easy access to essential services and activities beyond our facility
+  img: transporation.jpg
+
+- title: Hospice Support
+  description: During challenging times, our compassionate hospice support is here to provide comfort, dignity, and specialized care for you and your loved ones
+  img: hospice1.jpg
+
+- title: Memory Care Support
+  description: Our dedicated staff is trained to offer personalized care, engaging activities, and a secure environment, ensuring the well-being and dignity of residents with memory challenges
+  img: demential.jpg
+
+- title: Respite Care
+  description: Enjoy short-term stays for temporary care, providing relief to family caregivers.
+  img: respite-care.jpg
+
+- title: Counseling and Support Services
+  description: Benefit from the coordination of counseling services for emotional and psychological support, both for residents and their families
+  img: counseling.jpg

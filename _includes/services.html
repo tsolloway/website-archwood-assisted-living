@@ -1,0 +1,49 @@
+<style>
+    .container-cards {
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: row; 
+        justify-content: center;
+    }
+
+    .card {
+        display: inline-flex;
+        align-items: stretch;
+        justify-content: space-evenly;
+        flex-grow: 1;
+        text-align: left;
+        vertical-align: top;
+        width: 100%; 
+        max-width: 20rem;
+        color: #3d3852;
+        margin: 0 1.125rem 2.5rem;
+        background: #fff;
+        transition: all 250ms;
+        box-shadow: 0 0 1.25rem #ccc;
+        border: 1px solid #eee;
+    }
+
+    .card:hover {
+        box-shadow: 0 0 1.25rem #666;
+        background: #f2f6f9;
+        border-color: #aaa;
+        transform: translateY(-10px);
+    }
+</style>
+
+
+
+<div class = "container-cards">
+    {% for service in site.data.services %}
+        <div class="card align-items-stretch">
+        <img class="card-img-top" src="../assets/img/stock/{{ service.img }}">
+            <div class="card-body">
+                <h5 class="card-title" sytle="display: inline-flex; align-items: stretch;">{{ service.title }}</h5>
+                <p class="card-text">{{ service.description }}</p>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+
+
+

@@ -1,0 +1,23 @@
+<head>
+    <link rel="stylesheet" href="../assets/css/lightbox.css">
+    <link rel="stylesheet" href="../assets/css/grid.css" />
+</head>
+
+<div id="grid-gallery-container">
+    <div class="grid-gallery">
+        {% for photo in site.data.photos %}
+          <div class="grid-item"> 
+            <a href="../assets/img/photos/{{ photo.img }}" data-lightbox="facility"> 
+              <img src="../assets/img/photos/{{ photo.img }}" alt=""/>
+            </a> 
+          </div>
+        {% endfor %}
+      </div>
+      <script src="../assets/js/lightbox-plus-jquery.js"> </script>
+      <script>
+        lightbox.option({
+          'resizeDuration': 200,
+          'wrapAround': true
+        })
+      </script>
+</div>

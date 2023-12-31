@@ -48,7 +48,7 @@ container-no-offset: true
 </div>
 
 
-<div class="container-lg">
+<div id = "foo" class="container-lg">
     {% include photos.html %}
 </div>
 

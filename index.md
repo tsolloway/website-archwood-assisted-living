@@ -24,6 +24,7 @@ container-no-offset: true
 {% include contact-us-btn.html %}
 
 # Photos
+new bew
 {% include photos.html %}
 {% include contact-us-btn.html %}
 

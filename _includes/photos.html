@@ -1,18 +1,18 @@
-<div id="grid-gallery-container">
-    <div class="grid-gallery">
-        {% for photo in site.data.photos %}
-          <div class="grid-item"> 
-            <a href="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/{{ photo.img }}" data-lightbox="facility"> 
-              <img src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/{{ photo.img }}" alt=""/>
-            </a> 
-          </div>
-        {% endfor %}
-      </div>
-      <script src="../assets/js/lightbox-plus-jquery.js"> </script>
-      <script>
-        lightbox.option({
-          'resizeDuration': 200,
-          'wrapAround': true
-        })
-      </script>
+
+<div class="grid-gallery">
+  {% for photo in site.data.photos %}
+  <div class="grid-item"> 
+    <a href="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/{{ photo.img }}" data-lightbox="facility"> 
+        <img src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/{{ photo.img }}" alt=""/>
+      </a> 
+    </div>
+  {% endfor %}
+  <script src="../assets/js/lightbox-plus-jquery.js"> </script>
+  <script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+  </script>
 </div>
+

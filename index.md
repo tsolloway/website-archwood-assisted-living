@@ -24,10 +24,10 @@ container-no-offset: true
 {% include contact-us-btn.html %}
 
 
-<div style="padding: 1.5rem">
-    <div class="container-header" style="background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/nurse-help.jpg') center/cover no-repeat;">
+<div style="padding-top: 2.5rem; padding-bottom: 1.5rem">
+    <div class="container-header header-service">
         <div class="container-header-overlay"></div>
-        <h1>What We Bring</h1>
+        <h1>Your Experience</h1>
     </div>
 </div>
 
@@ -40,10 +40,10 @@ container-no-offset: true
 {% include contact-us-btn.html %}
 
 
-<div style="padding: 1.5rem">
-    <div class="container-header" style="background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/home.jpg') center/cover no-repeat;">
+<div style="padding-top: 2.5rem; padding-bottom: 1.5rem">
+    <div class="container-header header-photo">
         <div class="container-header-overlay"></div>
-        <h1>Where You'll Stay</h1>
+        <h1>Your Commfort</h1>
     </div>
 </div>
 

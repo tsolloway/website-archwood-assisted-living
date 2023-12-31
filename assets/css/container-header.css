@@ -1,7 +1,10 @@
 .container-header {
     position: relative;
-    text-align: center;
-    padding: 3rem; /* Adjust padding as needed */
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-header-overlay {
@@ -10,12 +13,24 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.5); /* Adjust the overlay color and opacity */
+    background: rgba(255, 255, 255, 0.5);
     z-index: 0;
 }
 
 .container-header h1 {
-    margin-bottom: 0; /* Remove default margin for better centering */
+    margin-bottom: 0;
     position: relative;
-    z-index: 1; /* Ensure the text is above the overlay */
+    z-index: 1;
+}
+
+@media screen and (min-width: 768px) {
+    .header-service {
+        background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/nurse-help.jpg') center/cover no-repeat;
+        background-attachment: fixed;
+    }
+
+    .header-photo {
+        background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/home.jpg') center/cover no-repeat;
+        background-attachment: fixed;
+    }
 }

@@ -25,9 +25,6 @@ navbar-links:
   Services: "services"
   Photos: "photos"
   Contact Us: "contact"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
 
 ################
 # --- Logo --- #

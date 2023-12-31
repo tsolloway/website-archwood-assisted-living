@@ -15,12 +15,14 @@ container-no-offset: true
 
 <div class="container-lg col-lg-10 offset-lg-1" markdown="1">
 
-# About us
+
 {% include about-us.txt %} 
+
 
 # Our Services
 {% include services.html %}
 {% include contact-us-btn.html %}
+
 
 # Photos
 {% include photos.html %}

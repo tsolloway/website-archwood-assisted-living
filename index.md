@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: base
 share-title: Archwood | Home
 full-width: true
 container-no-offset: true

@@ -4,7 +4,7 @@ share-title: Archwood | Home
 full-width: true
 container-no-offset: true
 ---
-<div class="videoWrapper container-fluid col">
+<div class="videoWrapper">
     <iframe
       width="560" height="315"
       src="https://www.youtube.com/embed/5BWrpuD0R68?si=4CHjFL807_tVc8pu&amp;autoplay=1;controls=0;mute=1"

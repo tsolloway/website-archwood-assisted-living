@@ -4,7 +4,6 @@ share-title: Archwood | Home
 full-width: true
 container-no-offset: true
 ---
-
 <div class="videoWrapper container-fluid col">
     <iframe
       width="560" height="315"
@@ -24,13 +23,6 @@ container-no-offset: true
 {% include contact-us-btn.html %}
 
 # Photos
-
-</div>
-
-test2
 {% include photos.html %}
 {% include contact-us-btn.html %}
-
-
-
-
+</div>

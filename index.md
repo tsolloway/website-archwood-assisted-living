@@ -13,6 +13,9 @@ container-no-offset: true
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
+mehh 
+
+{% include services.html %}
 
 <div class="container-lg col-lg-10 offset-lg-1" markdown="1">
 

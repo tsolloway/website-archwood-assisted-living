@@ -24,10 +24,13 @@ container-no-offset: true
 {% include contact-us-btn.html %}
 
 # Photos
-test
+
+</div>
+
+test2
 {% include photos.html %}
 {% include contact-us-btn.html %}
 
-</div>
+
 
 

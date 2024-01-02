@@ -23,6 +23,9 @@
     z-index: 1;
 }
 
+
+
+
 @media screen and (min-width: 768px) {
     .header-service {
         background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/nurse-help.jpg') center/cover no-repeat;
@@ -33,4 +36,18 @@
         background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/home.jpg') center/cover no-repeat;
         background-attachment: fixed;
     }
+}
+
+.container-hero {
+    position: relative;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: left;
+    align-items: bottom;
+}
+
+.header-hero {
+    background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/IMG_5578-hero.jpeg') center/cover no-repeat;
+    background-attachment: fixed;
 }

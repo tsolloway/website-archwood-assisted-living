@@ -1,6 +1,7 @@
 .container-header {
     position: relative;
     width: 100%;
+    height: 25vh;
     padding: 3rem;
     display: flex;
     justify-content: center;
@@ -24,30 +25,43 @@
 }
 
 
-
-
 @media screen and (min-width: 768px) {
     .header-service {
-        background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/nurse-help.jpg') center/cover no-repeat;
+        background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/nurse-help.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed;
     }
 
     .header-photo {
-        background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/home.jpg') center/cover no-repeat;
+        background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/home.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed;
     }
 }
 
+
 .container-hero {
+    height: 75vh;
+    background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/IMG_5578-hero.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     position: relative;
-    width: 100%;
-    padding: 3rem;
-    display: flex;
-    justify-content: left;
-    align-items: bottom;
+    padding: 0 auto;
 }
 
-.header-hero {
-    background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/IMG_5578-hero.jpeg') center/cover no-repeat;
-    background-attachment: fixed;
+
+.bottom-left-button {
+    position: absolute;
+    bottom: 0; /* Adjust as needed */
+    left: 0; /* Adjust as needed */
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }

@@ -5,23 +5,29 @@ full-width: true
 container-no-offset: true
 ---
 
-<div class="container-hero header-hero" style="height: 750px">
-</div>
 
 
-{% include header.html type="page" %}
+<head>
+    <div class="container-hero">
+    <div class="bottom-left-button">
+    {% include contact-us-btn.html %}
+    </div>
+    </div>
+</head>
 
-<div class="container-lg">
-<div class="col-lg-10 offset-lg-1" markdown="1">
+
+
+
+<div class="col-lg-10 offset-lg-1" markdown="1" style="padding-top: 2.5rem;">
 {% include about-us.txt %} 
 </div>
-</div>
+
 
 
 {% include contact-us-btn.html %}
 
 
-<div style="padding-top: 2.5rem; padding-bottom: 1.5rem">
+<div style="padding-top: 2.5rem; padding-bottom: 2.5rem">
     <div class="container-header header-photo">
         <div class="container-header-overlay"></div>
         <h1>Your Commfort</h1>
@@ -37,7 +43,7 @@ container-no-offset: true
 {% include contact-us-btn.html %}
 
 
-<div style="padding-top: 2.5rem; padding-bottom: 1.5rem">
+<div style="padding-top: 2.5rem; padding-bottom: 2.5rem">
     <div class="container-header header-service">
         <div class="container-header-overlay"></div>
         <h1>Your Experience</h1>

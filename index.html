@@ -7,19 +7,26 @@ container-no-offset: true
 
 {% include header.html type="page" %}
 
-<div class="videoWrapper">
-    <iframe
-      width="560" height="315"
-      src="https://www.youtube.com/embed/5BWrpuD0R68?si=4CHjFL807_tVc8pu&amp;autoplay=1;controls=0;mute=1"
-      title="" frameborder="0" 
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-
 <div class="container-lg">
 <div class="col-lg-10 offset-lg-1" markdown="1">
 {% include about-us.txt %} 
 </div>
+</div>
+
+
+{% include contact-us-btn.html %}
+
+
+<div style="padding-top: 2.5rem; padding-bottom: 1.5rem">
+    <div class="container-header header-photo">
+        <div class="container-header-overlay"></div>
+        <h1>Your Commfort</h1>
+    </div>
+</div>
+
+
+<div class="container-lg">
+    {% include photos.html %}
 </div>
 
 
@@ -36,22 +43,6 @@ container-no-offset: true
 
 <div class="container-lg">
     {% include services.html %}
-</div>
-
-
-{% include contact-us-btn.html %}
-
-
-<div style="padding-top: 2.5rem; padding-bottom: 1.5rem">
-    <div class="container-header header-photo">
-        <div class="container-header-overlay"></div>
-        <h1>Your Commfort</h1>
-    </div>
-</div>
-
-test3 4
-<div class="container-lg" markdown="1">
-{% include photos.html %}
 </div>
 
 

@@ -1,57 +1,75 @@
-- title: photo12
-  description: 
-  img: IMG_5578.jpeg
-- title: photo1
-  description: 
-  img: IMG_5560.jpeg
-- title: photo2
-  description: 
-  img: IMG_5563.jpeg
-- title: photo3
-  description: 
-  img: IMG_5564.jpeg
-- title: photo4
-  description: 
-  img: IMG_5565.jpeg
-- title: photo5
-  description: 
-  img: IMG_5566.jpeg
-- title: photo6
-  description: 
-  img: IMG_5567.jpeg
-- title: photo7
-  description: 
-  img: IMG_5568.jpeg
-- title: photo8
-  description: 
-  img: IMG_5569.jpeg
-- title: photo9
-  description: 
-  img: IMG_5570.jpeg
-- title: photo10
-  description: 
-  img: IMG_5571.jpeg
-- title: photo11
-  description: 
-  img: IMG_5573.jpeg
-- title: photo13
-  description: 
-  img: IMG_5579.jpeg
-- title: photo14
-  description: 
-  img: IMG_5581.jpeg
-- title: photo15
-  description: 
-  img: IMG_5582.jpeg
-- title: photo16
-  description: 
-  img: IMG_5583.jpeg
-- title: photo17
-  description: 
-  img: IMG_5585.jpeg
-- title: photo18
-  description: 
-  img: IMG_5586.jpeg
-- title: photo18
-  description: 
-  img: IMG_5587.jpeg
+- title: Archwood Assisted Living Front
+  description:
+  img: 01.4O4A8391-hero-front.jpg
+- title: Archwood Assisted Living Profile
+  description:
+  img: 02.4O4A8393-hero-side.jpg
+- title: Front Walkway
+  description:
+  img: 03.4O4A8429-front.jpg
+- title: Grand Room 1
+  description:
+  img: 04.4O4A8643-grandroom1.jpg
+- title: Grand Room 2
+  description:
+  img: 05.4O4A8654-grandroom2.jpg
+- title: Grand Room 3
+  description:
+  img: 06.4O4A8637-grandroom3.jpg
+- title: Kitchen 1
+  description:
+  img: 07.4O4A8612-kitchen1.jpg
+- title: Kitchen 2
+  description:
+  img: 08.4O4A8621-kitchen2.jpg
+- title: Kitchen 3
+  description:
+  img: 09.4O4A8616-kitchen3.jpg
+- title: Backyard 1
+  description:
+  img: 10.4O4A8447-backyard1.jpg
+- title: Backyard 2
+  description:
+  img: 11.4O4A8440-backyard2.jpg
+- title: Backyard 3
+  description:
+  img: 12.4O4A8660-backyard3.jpg
+- title: Backyard 4
+  description:
+  img: 13.4O4A8443-backyard4.jpg
+- title: Bedroom One 1
+  description:
+  img: 14.4O4A8583-bedroom-one1.jpg
+- title: Bedroom One 2
+  description:
+  img: 15.4O4A8539-bedroom-one2.jpg
+- title: Bathroom One 1
+  description:
+  img: 16.4O4A8551-bath-one1.jpg
+- title: Bathroom One 2
+  description:
+  img: 17.4O4A8553-bath-one2.jpg
+- title: Bedroom Two 1
+  description:
+  img: 18.4O4A8501-bedroom-two1.jpg
+- title: Bedroom Two 2
+  description:
+  img: 19.4O4A8499-bedroom-two2.jpg
+- title: Bathroom Two 1
+  description:
+  img: 20.4O4A8524-bath-two1.jpg
+- title: Bathroom Two 2
+  description:
+  img: 21.4O4A8530-bath-two2.jpg
+- title: Bedroom Three
+  description:
+  img: 22.4O4A8486-bedroom-three1.jpg
+- title: Bathroom Three 1
+  description:
+  img: 23.4O4A8584-bath-three1.jpg
+- title: Bathroom Three 2
+  description:
+  img: 24.4O4A8588-bath-three2.jpg
+- title: Bedroom Four
+  description:
+  img: 25.4O4A8604-bedroom-four.jpg

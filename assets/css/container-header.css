@@ -26,7 +26,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .header-service {
         background: url('https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/nurse-help.jpg');
         background-position: center;
@@ -67,8 +67,17 @@
     cursor: pointer;
 }
 
+@media (max-width: 1199px) {
+    
+    .container-hero {
+        height: 62.5vh;
+        background-attachment: local;
+    }
 
-@media only screen and (max-width: 768px) {
+}
+
+
+@media (max-width: 768px) {
     
     .container-hero {
         height: 50vh;

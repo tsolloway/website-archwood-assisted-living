@@ -382,6 +382,12 @@ img {
   }
 }
 
+@media (max-width: 574px) {
+  .avatar-container {
+    display: none;
+  }
+}
+
 /* --- Footer --- */
 
 footer {

@@ -1,42 +1,17 @@
-<style>
-    .container-cards {
-        display: flex; 
-        flex-wrap: wrap;
-        flex-direction: row; 
-        justify-content: center;
-    }
-
-    .card {
-        display: inline-flex;
-        align-items: stretch;
-        justify-content: space-evenly;
-        flex-grow: 1;
-        text-align: left;
-        vertical-align: top;
-        width: 100%; 
-        max-width: 20rem;
-        color: #3d3852;
-        margin: 0 1.125rem 2.5rem;
-        background: #fff;
-        transition: all 250ms;
-        box-shadow: 0 0 1.25rem #ccc;
-        border: 1px solid #eee;
-    }
-
-    .card:hover {
-        box-shadow: 0 0 1.25rem #666;
-        background: #f2f6f9;
-        border-color: #aaa;
-        transform: translateY(-10px);
-    }
-</style>
-
-
-
 <div class = "container-cards">
     {% for service in site.data.services %}
         <div class="card align-items-stretch">
-        <img class="card-img-top" loading="lazy" src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/{{ service.img }}">
+        <img 
+            class="card-img-top lazyload"
+            data-sizes="auto"
+            data-src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/processed-images-720/{{ service.img }}"
+            data-srcset="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/processed-images-320/{{ service.img }} 320w,
+            https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/processed-images-480/{{ service.img }} 480w,
+            https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/processed-images-720/{{ service.img }} 720w,
+            https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/processed-images-1024/{{ service.img }} 1024w,
+            https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/processed-images-1280/{{ service.img }} 1280w,
+            https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/processed-images-1920/{{ service.img }} 1920w"
+            >
             <div class="card-body">
                 <h5 class="card-title" sytle="display: inline-flex; align-items: stretch;">{{ service.title }}</h5>
                 <p class="card-text">{{ service.description }}</p>
@@ -44,6 +19,3 @@
         </div>
     {% endfor %}
 </div>
-
-
-

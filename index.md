@@ -5,8 +5,6 @@ full-width: true
 container-no-offset: true
 ---
 
-
-
 <head>
     <div class="container-hero">
         <div class="bottom-left-button">

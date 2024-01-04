@@ -36,7 +36,7 @@
 <div class = "container-cards">
     {% for service in site.data.services %}
         <div class="card align-items-stretch">
-        <img class="card-img-top" src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/{{ service.img }}">
+        <img class="card-img-top" loading="lazy" src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/stock/{{ service.img }}">
             <div class="card-body">
                 <h5 class="card-title" sytle="display: inline-flex; align-items: stretch;">{{ service.title }}</h5>
                 <p class="card-text">{{ service.description }}</p>

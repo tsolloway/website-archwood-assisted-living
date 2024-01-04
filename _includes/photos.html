@@ -3,7 +3,11 @@
   {% for photo in site.data.photos %}
   <div class="grid-item"> 
     <a href="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/{{ photo.img }}" data-lightbox="facility"> 
-        <img src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/{{ photo.img }}" alt=""/>
+        <img 
+          loading="lazy" 
+          src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/{{ photo.img }}" 
+          alt=""
+        />
       </a> 
     </div>
   {% endfor %}

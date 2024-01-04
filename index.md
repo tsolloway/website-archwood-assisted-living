@@ -9,19 +9,16 @@ container-no-offset: true
 
 <head>
     <div class="container-hero">
-    <div class="bottom-left-button">
-    {% include contact-us-btn.html %}
-    </div>
+        <div class="bottom-left-button">
+            {% include contact-us-btn.html %}
+        </div>
     </div>
 </head>
 
 
-
-
-<div class="col-lg-10 offset-lg-1" markdown="1" style="padding-top: 2.5rem;">
+<div class="col-lg-10 offset-lg-1" markdown="1" style="margin-top: 1rem;">
 {% include about-us.txt %} 
 </div>
-
 
 
 {% include contact-us-btn.html %}

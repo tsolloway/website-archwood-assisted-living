@@ -5,14 +5,14 @@ full-width: true
 container-no-offset: true
 ---
 
-<head>
+<div>
     <link rel="stylesheet" href="../assets/css/index-containers.css">
     <div class="container-hero">
         <div class="bottom-left-button">
             {% include contact-us-btn.html %}
         </div>
     </div>
-</head>
+</div>
 
 
 <div class="col-lg-10 offset-lg-1" markdown="1" style="margin-top: 1rem;">

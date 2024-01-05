@@ -15,8 +15,7 @@ title: Archwood Assisted Living
 # Your name to show in the footer
 author: Archwood Assisted Living, LLC
 
-
-#url: "https://archwoodassistedliving.com"
+url: "https://archwoodassistedliving.com"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -52,11 +51,11 @@ round-avatar: true
 social-network-links:
   email: "admin@archwoodassistedliving.com"
   telephone: +17477880208
-  yelp: "biz/archwood-assisted-living-reseda"
+  yelp: biz/archwood-assisted-living-reseda
   instagram: archwood_assisted_living
+  facebook: 61555145858180
 
 # calendly: archwoodassistedliving/informational-call
-# facebook: alina.modin
 
 
 ###########################

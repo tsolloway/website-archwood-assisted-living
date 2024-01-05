@@ -151,7 +151,6 @@ timezone: "America/Los Angeles"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
 
 kramdown:
   input: GFM
@@ -168,7 +167,6 @@ exclude:
   - docs/
 
 plugins:
-  - jekyll-paginate
   - jekyll-sitemap
 
 

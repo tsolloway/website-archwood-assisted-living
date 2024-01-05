@@ -1,28 +1,35 @@
-<div class="grid-gallery">
-  {% for photo in site.data.photos %}
-  <div class="grid-item"> 
-    <a href="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/processed-images-1280/{{ photo.img }}" data-lightbox="facility"> 
-        <img 
-          class="lazyload"
-          data-sizes="auto"
-          data-src="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/processed-images-1024/{{ photo.img }}"
-          data-srcset="https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/processed-images-480/{{ photo.img }} 480w,
-          https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/processed-images-720/{{ photo.img }} 720w,
-          https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/processed-images-1024/{{ photo.img }} 1024w,
-          https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/processed-images-1280/{{ photo.img }} 1280w,
-          https://website-archwood-assited-living-img.s3.us-west-2.amazonaws.com/facility/processed-images-1920/{{ photo.img }} 1920w"
-          alt=""
-        />
-      </a> 
-    </div>
-  {% endfor %}
-  <script src="../assets/js/lazysizes.min.js"> async</script>
-  <script src="../assets/js/lightbox-plus-jquery.min.js"> async</script>
-  <script>
-    lightbox.option({
-      'resizeDuration': 200,
-      'wrapAround': true
-    })
-    async
-  </script>
+<div>
+  <link rel="stylesheet" href="../assets/css/grid.css">
+  <div class="grid-gallery">
+  
+    <link rel="stylesheet" href="../assets/css/lightbox.css">
+    {% for photo in site.data.photos %}
+    <div class="grid-item"> 
+      <a href="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg" data-lightbox="facility"> 
+          <img 
+            class="lazyload"
+            data-sizes="auto"
+            data-src="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.jpg"
+            data-srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/480/{{ photo.img }}.jpg 480w,
+            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/720/{{ photo.img }}.jpg 720w,
+            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.jpg 1024w,
+            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg 1280w,
+            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1920/{{ photo.img }}.jpg 1920w"
+            alt=""
+          />
+        </a> 
+      </div>
+    {% endfor %}
+    <script src="../assets/js/lazysizes.min.js"> async</script>
+    <script src="../assets/js/lightbox-plus-jquery.min.js"> async</script>
+    <script>
+      lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true
+      })
+      async
+    </script>
+  </div>
 </div>
+
+

@@ -8,23 +8,21 @@
         <a href="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg" data-lightbox="facility"> 
           <picture>
             <source 
-              type="image/webp"
-              srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/480/{{ photo.img }}.webp 480w,
-              https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/720/{{ photo.img }}.webp 720w,
-              https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.webp 1024w,
-              https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.webp 1280w,
-              https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1920/{{ photo.img }}.webp 1920w"
+              type="image/webp" 
+              srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/720/{{ photo.img }}.webp 720w,
+                https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.webp 1024w,
+                https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.webp 1280w,
+                https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1920/{{ photo.img }}.webp 1920w"
+              sizes="100vw"
             >
-            <img 
-            class="lazyload"
-            data-sizes="auto"
-            data-src="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.jpg"
-            data-srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/480/{{ photo.img }}.jpg 480w,
-            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/720/{{ photo.img }}.jpg 720w,
-            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.jpg 1024w,
-            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg 1280w,
-            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1920/{{ photo.img }}.jpg 1920w"
-            alt="{{ photo.description }}">
+          <img 
+          class="lazyload"
+          data-sizes="auto"
+          data-srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/720/{{ photo.img }}.jpg 720w,
+          https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.jpg 1024w,
+          https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg 1280w,
+          https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1920/{{ photo.img }}.jpg 1920w"
+          alt="{{ photo.description }}">
           </picture>
         </a> 
       </div>

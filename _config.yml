@@ -16,7 +16,7 @@ title: Archwood Assisted Living
 author: Archwood Assisted Living, LLC
 
 
-url: "https://archwoodassistedliving.com"
+#url: "https://archwoodassistedliving.com"
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -54,8 +54,9 @@ social-network-links:
   telephone: +17477880208
   yelp: "biz/archwood-assisted-living-reseda"
   instagram: archwood_assisted_living
+
 # calendly: archwoodassistedliving/informational-call
-#  facebook: alina.modin
+# facebook: alina.modin
 
 
 ###########################

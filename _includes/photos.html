@@ -1,20 +1,19 @@
 <div>
   <link rel="stylesheet" href="../assets/css/grid.css">
   <div class="grid-gallery">
-  
     <link rel="stylesheet" href="../assets/css/lightbox.css">
     {% for photo in site.data.photos %}
       <div class="grid-item"> 
         <a href="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg" data-lightbox="facility"> 
           <img 
-          class="lazyload"
-          data-sizes="auto"
-          data-srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/720/{{ photo.img }}.jpg 720w,
-          https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.jpg 1024w,
-          https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg 1280w,
-          https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1920/{{ photo.img }}.jpg 1920w"
-          alt="{{ photo.description }}"
-          loading="lazy">
+            class="lazyload"
+            data-sizes="auto"
+            data-srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/720/{{ photo.img }}.jpg 720w,
+            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1024/{{ photo.img }}.jpg 1024w,
+            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1280/{{ photo.img }}.jpg 1280w,
+            https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/facility/1920/{{ photo.img }}.jpg 1920w"
+            alt="{{ photo.description }}"
+          >
         </a> 
       </div>
     {% endfor %}
@@ -25,7 +24,6 @@
         'resizeDuration': 200,
         'wrapAround': true
       })
-      async
     </script>
   </div>
 </div>

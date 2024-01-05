@@ -2,26 +2,14 @@
     <link rel="stylesheet" href="../assets/css/card.css">
     {% for service in site.data.services %}
         <div class="card align-items-stretch">
-            <picture>
-                <source 
-                type="image/webp" 
-                srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/480/{{ service.img }}.webp 480w,
-                    https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/720/{{ service.img }}.webp 720w,
-                    https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/1024/{{ service.img }}.webp 1024w,
-                    https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/1280/{{ service.img }}.webp 1280w"
-                sizes="100vw"
-                >
-                <img 
+            <img 
                 class="card-img-top lazyload"
                 data-sizes="auto"
                 data-src="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/720/{{ service.img }}.jpg"
                 data-srcset="https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/480/{{ service.img }}.jpg 480w,
                 https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/720/{{ service.img }}.jpg 720w,
-                https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/1024/{{ service.img }}.jpg 1024w,
-                https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/1280/{{ service.img }}.jpg 1280w"
+                https://archwoodassistedliving-media.s3.us-west-2.amazonaws.com/img/stock/1024/{{ service.img }}.jpg 1024w"
                 alt="{{ service.alt }}">
-            </picture>
-
             <div class="card-body">
                 <h5 class="card-title" sytle="display: inline-flex; align-items: stretch;">{{ service.title }}</h5>
                 <p class="card-text">{{ service.description }}</p>

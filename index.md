@@ -1,17 +1,43 @@
 ---
-layout: base
+layout: hero
 share-title: Archwood | Home
 full-width: true
 container-no-offset: true
 ---
 
-<div>
-    <link rel="stylesheet" href="../assets/css/index-containers.css">
+
+<!-- hero image header
+<div style="magrin:0 auto; padding:0auto">
+    <link rel="stylesheet" href="../assets/css/container-index.css">
     <div class="container-hero">
-        <div class="bottom-left-button">
+        <div class="btn-bottom-center">
             {% include contact-us-btn.html %}
         </div>
     </div>
+</div>
+-->
+
+<link rel="stylesheet" href="../assets/css/container-index.css">
+
+<div>
+    <link rel="stylesheet" href="../assets/css/container-video.css">
+    <div class="container-video">
+        <iframe 
+            src="https://player.vimeo.com/video/900206967?autoplay=1&amp;loop=1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;background=1&amp;app_id=58479" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; fullscreen" 
+            title="Archwood Assisted Living">
+        </iframe>
+        <div class="btn-bottom-center btn-hero-comp">
+            {% include contact-us-btn.html %}
+        </div>
+    </div>
+    <script src="https://player.vimeo.com/api/player.js" async></script>
+</div>
+
+
+<div class="btn-hero-mobile">
+    {% include contact-us-btn.html %}
 </div>
 
 

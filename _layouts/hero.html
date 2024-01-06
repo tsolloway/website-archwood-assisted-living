@@ -2,9 +2,9 @@
 layout: base
 ---
 
-{% include header.html type="page" %}
+{% include header.html type="hero" %}
 
-<main class="{% if page.full-width %} container-fluid no-gutters {% else %} container-lg {% endif %}">
+<main class="{% if page.full-width %} container-fluid {% else %} container-lg {% endif %}">
   <div class="row">
     <div class="{% if page.container-no-offset %} col {% else %} col-lg-10 offset-lg-1 {% endif %}">
       {% if page.before-content %}

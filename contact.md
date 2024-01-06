@@ -8,14 +8,14 @@ share-title: Archwood | Contact Us
 <script>enableSubmitContact = function(){ document.getElementById("submit_contact").disabled = false; }</script>
 
 <!-- Calendly link widget begin -->
-<div style="text-align: center">
-  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-  <button 
+<div class="container-btn">
+    <link rel="stylesheet" href="../assets/css/container-btn.css">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <button 
     type="button"
-    class="btn btn-lg btn-primary"
+    class="btn btn-lg btn-contact-us"
     onclick="Calendly.initPopupWidget({url: 'https://calendly.com/archwoodassistedliving/informational-call?hide_gdpr_banner=1'});return false;">Schedule time with us
-  </button>
+    </button>
 </div>
 <!-- Calendly link widget end -->
 

@@ -33,6 +33,8 @@ navbar-links:
 # --- Logo --- #
 ################
 
+img: https://archwoodassistedliving-media.s3.amazonaws.com/img/facility/480/01.4O4A8391-hero-front.jpg
+
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
 avatar: "/assets/img/logos/archwood-symbol-grey.png"

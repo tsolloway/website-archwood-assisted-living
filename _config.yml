@@ -22,12 +22,12 @@ url: "https://archwoodassistedliving.com"
 ###############################################
 
 navbar-links:
-  Home: "index"
-  About: "about"
-  Services: "services"
-  Photos: "photos"
-  Trailer: "trailer"
-  Contact Us: "contact"
+  Home: index
+  About: about
+  Services: services
+  Photos: photos
+  Trailer: trailer
+  Contact Us: contact
 
 ################
 # --- Logo --- #

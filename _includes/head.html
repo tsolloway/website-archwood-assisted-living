@@ -118,39 +118,11 @@
 
   <meta property="og:title" content="Archwood Assisted Living">
   <meta property="og:description" content="Welcome to Archwood Assisted Living, where compassionate care meets personalized living. Experience the warmth and compassion that define our exceptional community by scheduling a personalized tour today. (Facility #197610490)">
-  <meta property="og:image" content="https://archwoodassistedliving-media.s3.amazonaws.com/img/facility/720/01.4O4A8391-hero-front.jpg">
   <meta property="og:video" content="https://archwoodassistedliving-media.s3.amazonaws.com/archwoodassistedliving-promo-9x16-thumb.mp4">
-
-
-
-  {% if page.id %}
-  <meta property="og:type" content="article">
-  {% if author != "" %}
-  <meta property="og:article:author" content="{{ author }}">
-  {% endif %}
-  <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
-  {% else %}
   <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url | strip_index }}">
-  <link rel="canonical" href="{{ page.url | absolute_url | strip_index }}">
-  {% endif %}
 
-  {% if img != "" and img != site.avatar %}
-  <meta name="twitter:card" content="summary_large_image">
-  {% else %}
-  <meta name="twitter:card" content="summary">
-  {% endif %}
-  <meta name="twitter:site" content="@{{ site.social-network-links.twitter }}">
-  <meta name="twitter:creator" content="@{{ site.social-network-links.twitter }}">
 
-  <meta property="twitter:title" content="{{ title }}">
-  <meta property="twitter:description" content="{{ description }}">
 
-  {% if img != "" %}
-  <meta name="twitter:image" content="{{ img | absolute_url }}">
-  {% endif %}
 
   {% include matomo.html %}
 

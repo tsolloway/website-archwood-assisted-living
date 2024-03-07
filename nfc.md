@@ -9,6 +9,4 @@ full-width: false
     <link rel="canonical" href="https://archwoodassistedliving.com"/>
 </head> 
 
-{% include about-us.txt %}
-
-{% include contact-us-btn.html %}
+hi

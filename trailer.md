@@ -6,6 +6,11 @@ container-no-offset: true
 full-width: false
 ---
 
+<head> 
+    <link rel="canonical" href="https://archwoodassistedliving.com"/>
+</head> 
+
+
 <div>
     <link rel="stylesheet" href="../assets/css/container-video.css">
     <div class="container-video">

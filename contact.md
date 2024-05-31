@@ -24,7 +24,7 @@ share-title: Archwood | Contact Us
     <br>
     <b>Contact</b>
     <br>
-    <a href="tel:17477880208" title="Phone"> (747) 778-0208</a>
+    <a href="tel:17477880208" title="Phone"> (747) 788-0208</a>
     <br>
     <a href = "mailto:admin@archwoodassistedliving.com?subject=Archwood Assisted Living Inquiry" title="Email"> admin@archwoodassistedliving.com</a>
   </div>

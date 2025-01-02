@@ -22,7 +22,17 @@ share-title: Archwood | Contact Us
 <div class = "row">
   <div class = "col-md-6">
     <br>
-    <b>Contact</b>
+    <b>Inquiries</b>
+    <br>
+    <a href="tel:17477880208" title="Phone"> (747) 788-0208</a>
+  </div>
+</div>
+
+
+<div class = "row">
+  <div class = "col-md-6">
+    <br>
+    <b>Facility</b>
     <br>
     <a href="tel:17477880208" title="Phone"> (747) 788-0208</a>
     <br>
